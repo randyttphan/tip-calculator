@@ -33,14 +33,15 @@ h3 {
   padding: 10px;
 }
 
-form input {
-  margin: 7px;
+input {
+  width: 40%;
+  margin: 10px auto;
 }
 
 button {
-  margin: 10px;
+  margin: 15px auto;
   padding: 10px;
-  width: 40%;
+  width: 30%;
   background-color: rgb(182, 59, 59);
   color: white;
 }
