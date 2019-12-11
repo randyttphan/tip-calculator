@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -41,11 +42,20 @@ input {
 button {
   margin: 15px auto;
   padding: 10px;
-  width: 30%;
+  width: 50%;
   background-color: rgb(182, 59, 59);
   color: white;
 }
 
 p {
   margin: 7px;
+}
+
+#serviceQuality {
+  margin: 1rem;
+}
+
+#totalTip {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }

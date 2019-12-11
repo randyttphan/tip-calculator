@@ -12,7 +12,7 @@
       <h3>TIP CALCULATOR</h3>
       <form>
         <p>How much was your bill?</p>
-        $<input type="number" id="bill-amount" />
+        $ <input type="number" id="bill-amount" />
         <p>How was your service?</p>
         <select id="serviceQuality">
           <option disabled selected value="0">-- Choose an Option --</option>
@@ -23,13 +23,13 @@
           <option value="0.05">5 - Terrible</option>
         </select>
       </form>
-      <p>Are there any people sharing the bill?</p>
-      <input type="number" id="people-amount" /> people<br />
+      <p>Optional: Are there any people sharing the bill?</p>
+      <input type="number" id="people-amount" /><br />
 
       <button id="calculate-tip">Calculate!</button>
 
       <div id="totalTip">
-        <sup>You should tip $</sup><span id="tip">0.00</span>
+        <span>You should tip $</span><span id="tip">0.00</span>
         <small id="each">each</small>
       </div>
     </div>
